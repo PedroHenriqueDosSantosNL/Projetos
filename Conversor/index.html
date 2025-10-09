@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Convert Money</title>
+</head>
+<body>
+    <div class="img-principal-div">
+        <img class="img-principal" src="./assets/Logo_conversor_de_moedas.png" alt="conversor de moeda">
+    </div>
+    
+    <main>
+        <p>Converter <strong class="strong">de</strong></p>
+        <input type="text" id="valorEmReal" placeholder="R$  Real brasileiro" disabled>
+        <br>
+
+        <label for="moedaParaConversao">Converter <strong class="strong">para</strong></label>
+        <br>
+        <input type="text" id="moedaParaConversao" placeholder="US$  Dólar americano" disabled>
+
+        <p><strong class="strong">valor</strong></p>
+        <input type="number" id="valorParaConversao" placeholder="Digite o valor para conversão">
+        <br>
+        
+        <button onclick="cliqueiNoBotao()">Converter</button>
+
+        <div class="img-moedas">
+            <img src="./assets/Moeda_Brasil.png" alt="Moeda brasileira">
+            <p>Real</p>
+            <p>R$<span id="valorVariavelInicial"></span></p>
+            <br>
+            <img src="./assets/Vector.png" alt="">
+            <br>
+            <br>
+            <img src="./assets/Moeda_Dolar.png" alt="Moeda americana">
+            <p>Dólar americano</p>
+            <p>US$<span id="valorVariavelFinal"></span></p>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

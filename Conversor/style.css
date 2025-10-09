@@ -1,0 +1,70 @@
+* {
+    font-family: 'roboto' , 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #555555;
+    line-height: 24px;
+}
+
+body {
+    background-color: #8c52fd;
+}
+
+.img-principal-div {
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 680px;
+    background-color: #E5E5E5;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+input {
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 290px;
+    border: #555555 1px solid;
+}
+
+strong {
+    font-weight: 700;
+}
+
+p, label{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+button {
+    background-color: #772FD3;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 290px;
+    border: #772FD3 1px solid;
+}
+
+.img-moedas {
+    border: #772FD3 1px solid;
+    margin-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 5px;
+}
