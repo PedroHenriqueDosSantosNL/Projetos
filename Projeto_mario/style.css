@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.logo-header {
+    height: 60px;
+}
+
+header a {
+    color:white;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #c51111;
+    font-size: 23px;
+    transition: 0.5s ease-in-out;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.img-mario {
+    width: 200px;
+}
+
+.botao-entre-em-contato {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.botao-entre-em-contato:hover {
+    background-color: #e40c0c;
+    width: 220px;
+    transition: 0.5s ease-in-out;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.img-mario-luigi {
+    width: 500px;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.link-whatsapp {
+    width: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    left: -305px;
+    top: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    transition: left 0.5s ease-in-out;
+}
+
+.botao-solicitar-orcamento {
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #c51111;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-top: 5px;
+    padding-left: 5px;
+    outline-color: #c51111;
+    resize: none;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);;
+    transition: visibility 0.5s ease-in-out;
+}
+
+@media(max-width: 1233px) {
+    .caixa-mae {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .caixa-principal {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-mario-luigi {
+        width: 500px;
+        margin-top: 30px;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    p {
+        max-width: 1000px;
+        margin: 0 50px;
+    }
+}
+
+@media(max-width: 628px) {
+    .img-mario-luigi {
+        width: 250px;
+    }
+
+    header {
+        margin: 10px;
+    }
+
+    header a {
+        font-size: 18px;
+    }
+
+    header img {
+        display: none;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
