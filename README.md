@@ -2,9 +2,9 @@
 <br>
 <p>As tecnologias usadas foram: HTML5, CSS3 e JavaScript</p>
 <br>
-<img src="https://github.com/PedroHenriqueDosSantosNL/Projetos/blob/main/Projeto_Easy_Shopping/assets/Easy-shopping.png/>
+<img src="https://github.com/PedroHenriqueDosSantosNL/Projetos/blob/main/Projeto_Easy_Shopping/assets/Easy-shopping.png"/>
 <br>
-<img src="https://github.com/PedroHenriqueDosSantosNL/Projetos/blob/main/Positive/assets/Positive.png?raw=true" />
+<img src="https://github.com/PedroHenriqueDosSantosNL/Projetos/blob/main/Projeto_Positive/assets/Positive.png"/>
 <br>
 <img src="https://github.com/PedroHenriqueDosSantosNL/Projetos/blob/main/We_Care/assets/We-care.png?raw=true" />
 <br>
